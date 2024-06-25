@@ -1,0 +1,231 @@
+/* Propiedades */
+
+*{
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+ }
+header
+    {
+        /* display: flex; */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        gap: 15%;
+        top: 0;
+        height: 70px;
+        width: 100%;
+        z-index: 100;
+        border-radius: 6px 6px 3px 3px;
+        background-color: rgba(255, 255, 255, 0.815);
+        box-shadow: .1rem .2rem .3rem #333;
+    }
+header .a
+    {
+        margin: auto;
+        text-decoration: none;
+        color: #111;
+        font-weight: bold;
+        padding: 14px 20px;
+        border-radius: 6px;
+    }
+header .ul
+    {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        list-style: none;
+    } 
+header #buscar
+    {
+        padding: 6px 10px;
+        border-radius: 6px;
+    }
+body
+    {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgba(255, 255, 255, 0.815);
+        padding-top: 80px;
+    }
+h1
+    {
+        color: #111;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        margin: 30px 0px;
+    }
+img
+    {
+        object-fit: contain;
+        /* object-fit: cover; */
+        width: 220px; 
+        height: 220px;
+        border-radius: 20px 20px 0px 0px;
+        z-index: 50;
+    }
+.contenedor
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+.contenedor>div
+    {
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.85);
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+.informacion
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 130px;
+        gap: 5px;
+    }
+.pProducto
+    {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 13px;
+        font-weight: 100;
+    }
+.pPrecio
+    {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+    }
+.informacion .pPrecio span
+    {
+        font-size: 13px;
+        font-weight: 200;
+    }
+sup
+    {
+        text-decoration: underline;
+        font-size: 10px;
+        font-weight: 300;
+    }
+.btnComprar
+    {
+        border: none;
+        background-color: #111;
+        width: 100px;
+        height: 35px;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 300;
+    }
+.logo
+    {
+        height: auto;
+        float: left;
+        filter: grayscale(100%);
+        width: 55px;
+        height: 80px;
+        /* align-items: center; */
+    }
+#divMenu
+    {
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+#txtBuscar
+    {
+        /* display: none; */
+        color: black;
+    }  
+.busqueda
+    {
+        height: 30px;
+        object-fit: cover;
+        float: right;
+        width: 30px;
+        filter: grayscale(100%);
+    }
+.carrito
+    {
+        height: 30px;
+        object-fit: cover;
+        float: right;
+        width: 30px;
+        filter: grayscale(100%);
+        
+    }
+.contact
+    {
+        height: 30px;
+        object-fit: cover;
+        float: right;
+        width: 30px;
+        filter: grayscale(100%);
+    }
+.perfil
+    {
+        height: 30px;
+        object-fit: cover;
+        float: right;
+        width: 30px;
+        filter: grayscale(100%);
+    }
+.scroll
+    {
+        background-color: rgba(0, 0, 0, 0.85);
+        box-shadow: .1rem .2rem .3rem #333;
+    }
+.scroll h1
+    {
+        color: darkgray;
+    }
+.scroll .a
+    {
+        color: darkgray;
+    }
+.scroll img
+    {
+        /* filter: grayscale(100%); */
+        filter: invert(100%);
+    }
+.scroll .logo
+    {
+        filter: grayscale(100%);
+    }
+footer
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        border-radius: 2px 2px 6px 6px;
+        background-color: rgba(0, 0, 0, 0.84);
+        box-shadow: .1rem .2rem .3rem #333;
+    }
+
+/* Efectos */
+
+.contenedor>div:hover
+    {
+        background-color: #333;
+    }
+.btnComprar:hover
+    {
+        background-color: dimgrey;
+        cursor: pointer;
+    }
+.divProducto:hover
+    {
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+/* @media screen and (max-width:1200px) */

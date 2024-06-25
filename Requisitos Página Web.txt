@@ -1,0 +1,30 @@
+Página Web
+
+1. HTml
+*-Menú
+-imagenes productos
+-botón comprar
+
+2. CSS
+-Estilos para productos
+-Estilos para botón
+*-Estilos para Menú
+*-Estilo modal para contactenos
+
+3. Javascript
+*-Bucar productos
+*-Agregar productos al carrito
+*-Enviar pedido por correo
+*-Contactenos
+
+4. JSON
+*-Buscar o filtrar productos
+
+5. Node JS
+*-Implementar APIS
+
+6. MySql
+*-Crear BD
+
+7. GitHub
+*-Publicar página
