@@ -8,8 +8,8 @@
  }
 header
     {
-        /* display: flex; */
-        display: inline-flex;
+        display: flex;
+        /* display: inline-flex; */
         align-items: center;
         justify-content: center;
         position: fixed;
@@ -34,10 +34,9 @@ header .a
 header .ul
     {
         display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-end;
-        align-items: flex-end;
+        flex-flow: row;
         list-style: none;
+        gap: 5px;
     } 
 header #buscar
     {
@@ -102,7 +101,7 @@ img
     {
         text-align: center;
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 400;
     }
 .informacion .pPrecio span
     {
@@ -130,8 +129,9 @@ sup
         height: auto;
         float: left;
         filter: grayscale(100%);
-        width: 55px;
-        height: 80px;
+        width: 75px;
+        height: 100px;
+        margin-left: 20px;
         /* align-items: center; */
     }
 #divMenu
@@ -140,14 +140,25 @@ sup
         justify-content: center;
         margin: auto;
     }
-#txtBuscar
+#txtBuscar 
     {
         /* display: none; */
         color: black;
-    }  
-.busqueda
+        padding: 8px 15px;
+        border-radius: 6px;
+        font-size: medium;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+    }
+#divBuscar
     {
-        height: 30px;
+        background-color: blue;
+        align-items: center;
+        display: inline;
+    }
+.busqueda 
+    {
+        height: 35px;
         object-fit: cover;
         float: right;
         width: 30px;
