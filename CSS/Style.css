@@ -6,10 +6,16 @@
     margin: 0;
     padding: 0;
  }
+ #CP
+ {
+    /* color: #111; */
+    color: transparent;
+    text-transform: uppercase;
+ }
 header
     {
+        /* display: block; */
         display: flex;
-        /* display: inline-flex; */
         align-items: center;
         justify-content: center;
         position: fixed;
@@ -45,7 +51,8 @@ header #buscar
     }
 body
     {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
         background-color: rgba(255, 255, 255, 0.815);
         padding-top: 80px;
     }
@@ -127,12 +134,12 @@ sup
 .logo
     {
         height: auto;
-        float: left;
+        /* float: left; */
         filter: grayscale(100%);
         width: 75px;
         height: 100px;
         margin-left: 20px;
-        /* align-items: center; */
+        align-items: center;
     }
 #divMenu
     {
@@ -140,9 +147,13 @@ sup
         justify-content: center;
         margin: auto;
     }
+.show
+    {
+        display: inline;
+    }
 #txtBuscar 
     {
-        /* display: none; */
+        display: none;
         color: black;
         padding: 8px 15px;
         border-radius: 6px;
